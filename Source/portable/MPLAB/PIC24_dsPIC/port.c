@@ -399,7 +399,7 @@ void __attribute__((__interrupt__, auto_psv)) configTICK_INTERRUPT_HANDLER( void
 {
 	/* Clear the timer interrupt. */
 	IFS0bits.T1IF = 0;
-
+    
 	if( xTaskIncrementTick() != pdFALSE )
 	{
 		portYIELD();
