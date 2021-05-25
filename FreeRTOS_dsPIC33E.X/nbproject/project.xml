@@ -19,6 +19,7 @@
                 <sourceRootElem>../Source/portable</sourceRootElem>
                 <sourceRootElem>../Source/portable/MemMang</sourceRootElem>
                 <sourceRootElem>../Source/portable/MPLAB/PIC24_dsPIC</sourceRootElem>
+                <sourceRootElem>src</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
